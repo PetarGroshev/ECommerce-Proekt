@@ -1,0 +1,145 @@
+﻿body {
+    background-color: #B593FF;
+}
+
+.Menu ul {
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: #4B84FF;
+    text-align: center;
+}
+
+.Menu li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+}
+
+    .Menu li:hover {
+        background-color: #54C1FF;
+        padding: 5px 0;
+    }
+
+.Menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#Informaciq1 p {
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 3px;
+    background-color: azure;
+    width: 600px;
+    border: 2px solid;
+}
+
+#Informaciq1 img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 40%;
+    height: 290px;
+    border: 2px solid;
+}
+
+#Informaciq2 p {
+    float: right;
+    margin-right: 20px;
+    font-size: 22px;
+    padding: 3px;
+    background-color:lightskyblue;
+    width: 600px;
+    border: 2px solid;
+}
+
+#Informaciq2 img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 30%;
+    height: 260px;
+    border: 2px solid;
+}
+
+#Zaglavie{
+    text-align:center;
+}
+
+hr {
+    border: 1px solid #4B84FF;
+}
+
+#HowEcommerce{
+    text-align:center;
+}
+
+#HowText {
+    background-color: azure;
+    font-size: 20px;
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+    font-size: 22px;
+    border: 2px solid;
+}
+
+#MakeShop{
+    width:35%;
+    float:right;
+    margin-right:10px;
+    margin-top:20px;
+    border:2px solid;
+
+}
+#SpisukZaglavie{
+    text-align:center;
+}
+
+.ShopList ol{
+    background-color:azure;
+    width:20%;
+    font-size:20px;
+    float:left;
+    margin-left:150px;
+   
+}
+.ShopList a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.ShopList li{
+    padding:8px;
+}
+
+#PazaruvaneSnimka {
+    float: right;
+    margin-right: 140px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4B84FF;
+    text-decoration: none;
+    text-align: center;
+}
+
+    footer ul {
+        list-style-type: none;
+    }
+
+
+        footer ul li a {
+            color: lightgray;
+            text-decoration: none;
+        }

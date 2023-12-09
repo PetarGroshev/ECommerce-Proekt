@@ -1,0 +1,97 @@
+﻿body {
+    background-color: #B593FF;
+}
+
+.Menu ul {
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: #4B84FF;
+    text-align: center;
+}
+
+.Menu li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+}
+
+    .Menu li:hover {
+        background-color: #54C1FF;
+        padding: 5px 0;
+    }
+
+.Menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#NachalnoZaglavie{
+    text-align:center;
+}
+
+hr {
+    border: 2px solid #4B84FF;
+}
+
+
+.brandText p{
+    float:left;
+    margin-left:10px;
+    background-color:azure;
+    width:40%;
+    font-size:17px;
+}
+
+.brandImage img {
+    float:right;
+    margin-left:20px;
+    margin-right:10px;
+    margin-top:10px;
+    border:1px solid;
+    border-radius:5%;
+}
+
+#Aliexpress img {
+    float: right;
+    margin-top: 10px;
+    width: 20%;
+}
+
+#Emag img{
+    width:40%;
+    height:100%;
+}
+
+#Ozone img {
+    width: 40%;
+    height: 100%;
+}
+
+#Ardes img {
+    width: 40%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4B84FF;
+    text-decoration: none;
+    text-align: center;
+}
+
+    footer ul {
+        list-style-type: none;
+    }
+
+
+        footer ul li a {
+            color: lightgray;
+            text-decoration: none;
+        }

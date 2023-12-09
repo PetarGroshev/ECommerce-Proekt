@@ -1,0 +1,99 @@
+﻿body {
+    background-color: #B593FF;
+}
+
+.Menu ul {
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: #4B84FF;
+    text-align: center;
+}
+
+.Menu li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+}
+
+    .Menu li:hover {
+        background-color: #54C1FF;
+        padding: 5px 0;
+    }
+
+.Menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#Zaglavie{
+    text-align:center;
+}
+
+hr {
+    border: 1px solid #4B84FF;
+}
+
+#Info {
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 3px;
+    background-color: azure;
+    width: 350px;
+    border: 2px solid;
+    margin-top:20px;
+}
+
+#Snimka img{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width:50%;
+    height:50%;
+    
+}
+
+#Predimstva{
+    text-align:center;
+    font-size:22px;
+}
+
+#Spisak{
+    padding:10px;
+    background-color:azure;
+    border:1px solid black;
+}
+#Tablica table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Tablica table, td, th {
+    border: 2px solid;
+    background-color: white;
+    padding: 5px;
+    border-spacing: 10px;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4B84FF;
+    text-decoration: none;
+    text-align: center;
+}
+
+    footer ul {
+        list-style-type: none;
+    }
+
+
+        footer ul li a {
+            color: lightgray;
+            text-decoration: none;
+        }
